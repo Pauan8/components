@@ -1,0 +1,39 @@
+.header {
+    height: 500px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.nav {
+color: rgb(236, 236, 183);
+width: 50%;
+height: 30%;
+position: absolute;
+left: 50%;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+font-size: 30px;
+font-weight: 700;
+}
+
+.header-title{
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 90px;
+    width: 700px;
+    left: 7%;
+    top: 40%;
+    color: white;
+}
+
+.header-circle {
+    height: 500px;
+    width: 500px;
+    background-color: rgb(163, 99, 15);
+    border-radius: 50%;
+    position:absolute;
+    left: 5%;
+    top: -25%;
+}
